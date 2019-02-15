@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6793f2-5c37-4b39-8087-a42c13b31bf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/AminoAcid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/AminoAcid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/NucleotideType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/NucleotideType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/AminoAcidTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/AminoAcidTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AminoAcid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NucleotideType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AminoAcid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,22 +29,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1180" />
+          <entry key="java" value="1593" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1180" />
+          <entry key="JAVA" value="1593" />
         </counts>
       </usages-collector>
     </session>
@@ -57,45 +52,29 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Base.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AminoAcid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AminoAcidTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BaseType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -411,18 +390,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Nucleotides.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/NucleotideType.java" />
         <option value="$PROJECT_DIR$/src/main/java/NucleotideName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AminoAcid.java" />
         <option value="$PROJECT_DIR$/src/main/java/BaseType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AminoAcid.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-49" />
+    <option name="x" value="-76" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="672" />
@@ -479,7 +458,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550267807086" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550268869844" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -496,7 +475,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BaseTest.UracilHasValueU">
+  <component name="RunManager" selected="JUnit.AminoAcidTest">
     <configuration name="AminoAcidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProteinGenerator_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -505,11 +484,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AminoAcidTest.UracilHasValueU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AminoAcidTest.AminoAcidArrayStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProteinGenerator_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AminoAcidTest" />
-      <option name="METHOD_NAME" value="UracilHasValueU" />
+      <option name="METHOD_NAME" value="AminoAcidArrayStartsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -544,19 +523,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AminoAcidTest" />
-      <item itemvalue="JUnit.AminoAcidTest.UracilHasValueU" />
       <item itemvalue="JUnit.BaseTest.canGetBase" />
       <item itemvalue="JUnit.BaseTest" />
       <item itemvalue="JUnit.BaseTest.UracilHasValueU" />
+      <item itemvalue="JUnit.AminoAcidTest.AminoAcidArrayStartsEmpty" />
+      <item itemvalue="JUnit.AminoAcidTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AminoAcidTest" />
+        <item itemvalue="JUnit.AminoAcidTest.AminoAcidArrayStartsEmpty" />
         <item itemvalue="JUnit.BaseTest.UracilHasValueU" />
         <item itemvalue="JUnit.BaseTest.canGetBase" />
         <item itemvalue="JUnit.BaseTest" />
-        <item itemvalue="JUnit.AminoAcidTest.UracilHasValueU" />
-        <item itemvalue="JUnit.AminoAcidTest" />
       </list>
     </recent_temporary>
   </component>
@@ -580,9 +559,18 @@
     <history-entry file="AminoAcidTest_UracilHasValueU - 2019.02.15 at 11h 50m 58s.xml">
       <configuration name="AminoAcidTest.UracilHasValueU" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BaseTest_canGetBase - 2019.02.15 at 21h 54m 10s.xml">
+      <configuration name="BaseTest.canGetBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTest_canGetBase - 2019.02.15 at 21h 55m 30s.xml">
+      <configuration name="BaseTest.canGetBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTest_UracilHasValueU - 2019.02.15 at 21h 56m 49s.xml">
+      <configuration name="BaseTest.UracilHasValueU" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-49" y="23" width="1280" height="672" extended-state="0" />
+    <frame x="-76" y="23" width="1280" height="672" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -590,16 +578,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32931036" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32931036" />
+      <window_info anchor="bottom" id="Messages" weight="0.328152" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3275862" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32586208" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,9 +614,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BaseType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
+        <state relative-caret-position="235">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#170#171#0" expanded="true" />
             <element signature="e#204#205#0" expanded="true" />
@@ -638,29 +656,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Base.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AminoAcid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AminoAcidTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
           </folding>
         </state>
       </provider>
