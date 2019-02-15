@@ -1,14 +1,14 @@
-public enum NucleotideType {
+public enum BaseType {
 
 
     ADENINE("A"),
     CYTOSINE("C"),
     GUANINE("G"),
-    THYMINE("T");
+    URACIL("U");
 
     private final String value;
 
-    NucleotideType(String value){
+    BaseType(String value){
         this.value = value;
     }
 
