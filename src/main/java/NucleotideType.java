@@ -6,13 +6,13 @@ public enum NucleotideType {
     GUANINE("G"),
     THYMINE("T");
 
-    private final String value,
+    private final String value;
 
     NucleotideType(String value){
         this.value = value;
     }
 
-    public int getValue(){
+    public String getValue(){
         return this.value;
     }
 
