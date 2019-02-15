@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6793f2-5c37-4b39-8087-a42c13b31bf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AminoAcid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AminoAcid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AminoAcid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,22 +29,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1593" />
+          <entry key="java" value="1973" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1593" />
+          <entry key="JAVA" value="1973" />
         </counts>
       </usages-collector>
     </session>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AminoAcid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#112#113#0" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
@@ -66,11 +66,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AminoAcidTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="68">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -401,7 +415,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-76" />
+    <option name="x" value="-79" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="672" />
@@ -458,7 +472,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550268869844" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550270106333" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -475,7 +489,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AminoAcidTest">
+  <component name="RunManager" selected="JUnit.AminoAcidTest.cannotAddMoreThanThreeBases">
     <configuration name="AminoAcidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProteinGenerator_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -494,10 +508,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AminoAcidTest.canAddBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProteinGenerator_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BaseTest" />
+      <option name="MAIN_CLASS_NAME" value="AminoAcidTest" />
+      <option name="METHOD_NAME" value="canAddBase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AminoAcidTest.cannotAddMoreThanThreeBases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProteinGenerator_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AminoAcidTest" />
+      <option name="METHOD_NAME" value="cannotAddMoreThanThreeBases" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -512,30 +538,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseTest.canGetBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProteinGenerator_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BaseTest" />
-      <option name="METHOD_NAME" value="canGetBase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.BaseTest.canGetBase" />
-      <item itemvalue="JUnit.BaseTest" />
       <item itemvalue="JUnit.BaseTest.UracilHasValueU" />
       <item itemvalue="JUnit.AminoAcidTest.AminoAcidArrayStartsEmpty" />
       <item itemvalue="JUnit.AminoAcidTest" />
+      <item itemvalue="JUnit.AminoAcidTest.canAddBase" />
+      <item itemvalue="JUnit.AminoAcidTest.cannotAddMoreThanThreeBases" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AminoAcidTest" />
+        <item itemvalue="JUnit.AminoAcidTest.cannotAddMoreThanThreeBases" />
         <item itemvalue="JUnit.AminoAcidTest.AminoAcidArrayStartsEmpty" />
+        <item itemvalue="JUnit.AminoAcidTest.canAddBase" />
+        <item itemvalue="JUnit.AminoAcidTest" />
         <item itemvalue="JUnit.BaseTest.UracilHasValueU" />
-        <item itemvalue="JUnit.BaseTest.canGetBase" />
-        <item itemvalue="JUnit.BaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -553,24 +569,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AminoAcidTest - 2019.02.15 at 11h 47m 09s.xml">
+    <history-entry file="AminoAcidTest - 2019.02.15 at 22h 14m 32s.xml">
       <configuration name="AminoAcidTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AminoAcidTest_UracilHasValueU - 2019.02.15 at 11h 50m 58s.xml">
-      <configuration name="AminoAcidTest.UracilHasValueU" configurationId="JUnit" />
+    <history-entry file="AminoAcidTest_canAddBase - 2019.02.15 at 22h 27m 01s.xml">
+      <configuration name="AminoAcidTest.canAddBase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseTest_canGetBase - 2019.02.15 at 21h 54m 10s.xml">
-      <configuration name="BaseTest.canGetBase" configurationId="JUnit" />
+    <history-entry file="AminoAcidTest_canAddBase - 2019.02.15 at 22h 28m 01s.xml">
+      <configuration name="AminoAcidTest.canAddBase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseTest_canGetBase - 2019.02.15 at 21h 55m 30s.xml">
-      <configuration name="BaseTest.canGetBase" configurationId="JUnit" />
+    <history-entry file="AminoAcidTest_AminoAcidArrayStartsEmpty - 2019.02.15 at 22h 28m 24s.xml">
+      <configuration name="AminoAcidTest.AminoAcidArrayStartsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseTest_UracilHasValueU - 2019.02.15 at 21h 56m 49s.xml">
-      <configuration name="BaseTest.UracilHasValueU" configurationId="JUnit" />
+    <history-entry file="AminoAcidTest - 2019.02.15 at 22h 28m 28s.xml">
+      <configuration name="AminoAcidTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AminoAcidTest_canAddBase - 2019.02.15 at 22h 29m 39s.xml">
+      <configuration name="AminoAcidTest.canAddBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AminoAcidTest_canAddBase - 2019.02.15 at 22h 29m 47s.xml">
+      <configuration name="AminoAcidTest.canAddBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AminoAcidTest_canAddBase - 2019.02.15 at 22h 29m 51s.xml">
+      <configuration name="AminoAcidTest.canAddBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AminoAcidTest_canAddBase - 2019.02.15 at 22h 30m 27s.xml">
+      <configuration name="AminoAcidTest.canAddBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AminoAcidTest_canAddBase - 2019.02.15 at 22h 30m 37s.xml">
+      <configuration name="AminoAcidTest.canAddBase" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-76" y="23" width="1280" height="672" extended-state="0" />
+    <frame x="-79" y="23" width="1280" height="672" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -578,7 +609,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -587,8 +618,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.328152" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32586208" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3224138" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39896372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -611,20 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,10 +673,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AminoAcid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#112#113#0" expanded="true" />
             <element signature="e#153#154#0" expanded="true" />
@@ -671,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AminoAcidTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="68">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />

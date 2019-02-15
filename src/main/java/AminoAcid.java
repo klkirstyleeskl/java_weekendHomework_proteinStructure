@@ -10,4 +10,11 @@ public class AminoAcid {
     public int checkLength(){
         return this.bases.size();
     }
+
+    public Base addBase(Base base){
+        if(this.checkLength() < 3) {
+            this.bases.add(base);
+        }
+        return base;
+    }
 }
