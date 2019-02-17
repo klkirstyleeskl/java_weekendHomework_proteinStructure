@@ -39,6 +39,7 @@ public class AminoAcidTest {
         assertEquals("U", aminoAcid2.getBaseType(baseU));
     }
 
+
     @Test
     public void canAddBaseType(){
         aminoAcid2.addBaseType(baseA);

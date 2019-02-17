@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6793f2-5c37-4b39-8087-a42c13b31bf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/AminoAcid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/AminoAcidTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/AminoAcidTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AminoAcid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AminoAcid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,57 +28,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="25" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4898" />
+          <entry key="java" value="5068" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4898" />
+          <entry key="JAVA" value="5068" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Protein.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AminoAcid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AminoAcidTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+            <state relative-caret-position="213">
+              <caret line="62" column="45" lean-forward="true" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#616#617#0" expanded="true" />
@@ -111,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BaseType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#157#158#0" expanded="true" />
                 <element signature="e#191#192#0" expanded="true" />
@@ -445,8 +416,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Hamming.java" />
         <option value="$PROJECT_DIR$/src/test/java/HammingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AminoAcidTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AminoAcid.java" />
         <option value="$PROJECT_DIR$/src/main/java/BaseType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AminoAcid.java" />
       </list>
     </option>
   </component>
@@ -508,7 +479,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550425299844" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550426195528" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -525,7 +496,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AminoAcidTest.canGetBaseType">
+  <component name="RunManager" selected="JUnit.AminoAcidTest.canChangeArrayTostring">
+    <configuration name="AminoAcidTest.canAddBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProteinGenerator_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AminoAcidTest" />
+      <option name="METHOD_NAME" value="canAddBase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AminoAcidTest.canAddBaseType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProteinGenerator_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -556,16 +537,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AminoAcidTest.canGetBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProteinGenerator_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AminoAcidTest" />
-      <option name="METHOD_NAME" value="canGetBase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AminoAcidTest.canGetBaseType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProteinGenerator_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -577,19 +548,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AminoAcidTest.canChangeArrayTostring" />
-      <item itemvalue="JUnit.AminoAcidTest.canGetBase" />
       <item itemvalue="JUnit.AminoAcidTest.canAddBaseType" />
       <item itemvalue="JUnit.AminoAcidTest.canAddMoreThanOneBaseType" />
       <item itemvalue="JUnit.AminoAcidTest.canGetBaseType" />
+      <item itemvalue="JUnit.AminoAcidTest.canAddBase" />
+      <item itemvalue="JUnit.AminoAcidTest.canChangeArrayTostring" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AminoAcidTest.canGetBaseType" />
-        <item itemvalue="JUnit.AminoAcidTest.canAddBaseType" />
-        <item itemvalue="JUnit.AminoAcidTest.canAddMoreThanOneBaseType" />
-        <item itemvalue="JUnit.AminoAcidTest.canGetBase" />
         <item itemvalue="JUnit.AminoAcidTest.canChangeArrayTostring" />
+        <item itemvalue="JUnit.AminoAcidTest.canAddBaseType" />
+        <item itemvalue="JUnit.AminoAcidTest.canAddBase" />
+        <item itemvalue="JUnit.AminoAcidTest.canGetBaseType" />
+        <item itemvalue="JUnit.AminoAcidTest.canAddMoreThanOneBaseType" />
       </list>
     </recent_temporary>
   </component>
@@ -607,9 +578,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HammingTest_oneChangeInString - 2019.02.17 at 16h 12m 48s.xml">
-      <configuration name="HammingTest.oneChangeInString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HammingTest_moreThanOneChangeInString - 2019.02.17 at 16h 14m 12s.xml">
       <configuration name="HammingTest.moreThanOneChangeInString" configurationId="JUnit" />
     </history-entry>
@@ -637,6 +605,9 @@
     <history-entry file="AminoAcidTest_canGetBaseType - 2019.02.17 at 17h 32m 02s.xml">
       <configuration name="AminoAcidTest.canGetBaseType" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AminoAcidTest_canAddBaseType - 2019.02.17 at 17h 54m 38s.xml">
+      <configuration name="AminoAcidTest.canAddBaseType" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="23" width="1280" height="672" extended-state="0" />
@@ -647,13 +618,13 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32931036" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.31034482" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.30689654" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3074266" />
@@ -734,23 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HammingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hamming.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Protein.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -772,42 +726,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BaseType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AminoAcid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="220">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="e#112#113#0" expanded="true" />
             <element signature="e#153#154#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
             <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HammingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hamming.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AminoAcidTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        <state relative-caret-position="213">
+          <caret line="62" column="45" lean-forward="true" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
             <element signature="e#671#672#0" expanded="true" />
             <element signature="e#961#962#0" expanded="true" />
             <element signature="e#997#998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BaseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class AminoAcid {
     private ArrayList<Base> bases;
+    private String baseType;
 
     public AminoAcid(){
         bases = new ArrayList<>();
@@ -18,18 +19,17 @@ public class AminoAcid {
         }
         return base;
     }
-    
+
 
     public String getBaseType(Base base){
         String baseType = base.getValueFromEnum();
         return baseType;
-    }
-
-    public ArrayList addBaseType(){
-        String bannanas = bases.add(String baseType);
-        reuturn bannanas;
 
     }
+
+//    public String addBaseType(Base base){
+//       return this.bases.add(baseType);
+//    }
 
 
 

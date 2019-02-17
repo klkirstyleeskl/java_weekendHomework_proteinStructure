@@ -32,6 +32,7 @@ public class HammingTest {
         String str2 = "AGU";
         assertEquals(2, hamming.hammingDist(str1, str2));
     }
+    
 
 
 
