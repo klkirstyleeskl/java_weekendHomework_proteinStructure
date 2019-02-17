@@ -11,18 +11,30 @@ public class AminoAcid {
         return this.bases.size();
     }
 
+
     public Base addBase(Base base){
         if(this.checkLength() < 3) {
             this.bases.add(base);
         }
         return base;
     }
-//
-//    public String getAminoAcidSeq(){
-//        if(this.addBase() = BaseType.URACIL){
-//            return "Phe";
-//        }
-//    }
+    
+
+    public String getBaseType(Base base){
+        String baseType = base.getValueFromEnum();
+        return baseType;
+    }
+
+    public ArrayList addBaseType(){
+        String bannanas = bases.add(String baseType);
+        reuturn bannanas;
+
+    }
+
+
+
+
+
 
 
 }
