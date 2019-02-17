@@ -15,13 +15,5 @@ class Hamming
         return count;
     }
 
-    // Driver code
-    public static void main (String[] args)
-    {
-        String str1 = "AGC";
-        String str2 = "GCU";
 
-        // function call
-        System.out.println(hammingDist (str1, str2));
-    }
 }
