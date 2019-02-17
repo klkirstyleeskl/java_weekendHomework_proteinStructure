@@ -1,10 +1,12 @@
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 
 public class AminoAcidTest {
-    AminoAcid aminoAcid;
+    AminoAcid aminoAcid1;
+    AminoAcid aminoAcid2;
     Base baseA;
     Base baseC;
     Base baseG;
@@ -12,7 +14,8 @@ public class AminoAcidTest {
 
     @Before
     public void before(){
-        aminoAcid = new AminoAcid();
+        aminoAcid1 = new AminoAcid();
+        aminoAcid2 = new AminoAcid();
         baseA = new Base(BaseType.ADENINE);
         baseC = new Base(BaseType.CYTOSINE);
         baseG = new Base(BaseType.GUANINE);
@@ -21,24 +24,32 @@ public class AminoAcidTest {
 
     @Test
     public void AminoAcidArrayStartsEmpty(){
-      assertEquals(0, aminoAcid.checkLength());
+      assertEquals(0, aminoAcid1.checkLength());
     }
 
     @Test
     public void canAddBase(){
-        aminoAcid.addBase(baseA);
-        assertEquals(1, aminoAcid.checkLength());
+        aminoAcid1.addBase(baseA);
+        assertEquals(1, aminoAcid1.checkLength());
     }
 
     @Test
     public void cannotAddMoreThanThreeBases(){
-        aminoAcid.addBase(baseA);
-        aminoAcid.addBase(baseU);
-        aminoAcid.addBase(baseG);
-        aminoAcid.addBase(baseG);
-        assertEquals(3, aminoAcid.checkLength());
+        aminoAcid1.addBase(baseA);
+        aminoAcid1.addBase(baseU);
+        aminoAcid1.addBase(baseG);
+        aminoAcid1.addBase(baseG);
+        assertEquals(3, aminoAcid1.checkLength());
 
     }
+
+
+////    @Test stuck...!!!
+//    public void aminoAcidReturnsString(){
+//        aminoAcid.addBase(baseU);
+//        assertEquals("Phe", aminoAcid.getAminoAcidSeq());
+//    }
+
 
 
 }

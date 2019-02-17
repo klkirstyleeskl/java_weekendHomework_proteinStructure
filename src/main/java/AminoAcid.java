@@ -17,4 +17,12 @@ public class AminoAcid {
         }
         return base;
     }
+//
+//    public String getAminoAcidSeq(){
+//        if(this.addBase() = BaseType.URACIL){
+//            return "Phe";
+//        }
+//    }
+
+
 }
